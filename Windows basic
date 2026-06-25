@@ -1,0 +1,65 @@
+Since your goal is **Technical Support + Cisco CCST**, here's a personalized cheat sheet. Focus on mastering these tools first.
+
+| Tool                              | Command                     | Purpose                                   | When to Use                        |
+| --------------------------------- | --------------------------- | ----------------------------------------- | ---------------------------------- |
+| **Task Manager**                  | `Ctrl + Shift + Esc`        | View processes, performance, startup apps | PC slow, app not responding        |
+| **Device Manager**                | `devmgmt.msc`               | Manage hardware and drivers               | Driver issues, missing devices     |
+| **Event Viewer**                  | `eventvwr.msc`              | View system/application logs              | Crashes, BSOD, startup errors      |
+| **Reliability Monitor**           | `perfmon /rel`              | Shows crash history                       | Frequent crashes, stability issues |
+| **System Configuration**          | `msconfig`                  | Safe Mode, boot options, services         | Boot troubleshooting               |
+| **System Information**            | `msinfo32`                  | Complete hardware/software info           | Gather system details              |
+| **Command Prompt**                | `cmd`                       | Run Windows commands                      | Network and system troubleshooting |
+| **PowerShell**                    | `powershell`                | Advanced administration                   | Automation, scripting              |
+| **Services**                      | `services.msc`              | Start/stop Windows services               | Service won't start                |
+| **Registry Editor**               | `regedit`                   | Edit Windows Registry                     | Advanced troubleshooting           |
+| **Disk Management**               | `diskmgmt.msc`              | Manage partitions/disks                   | New HDD/SSD, partition issues      |
+| **Computer Management**           | `compmgmt.msc`              | Central management console                | Access multiple admin tools        |
+| **Resource Monitor**              | `resmon`                    | Detailed CPU, RAM, Disk, Network          | Performance bottlenecks            |
+| **Performance Monitor**           | `perfmon`                   | Monitor performance counters              | Long-term performance analysis     |
+| **System Restore**                | `rstrui.exe`                | Restore Windows to earlier state          | After bad updates/drivers          |
+| **Windows Recovery (WinRE)**      | Shift + Restart             | Repair Windows                            | Startup failures                   |
+| **Windows Security**              | `windowsdefender:`          | Antivirus & firewall                      | Malware/security issues            |
+| **Network Connections**           | `ncpa.cpl`                  | Manage network adapters                   | Internet/network problems          |
+| **Control Panel**                 | `control`                   | Legacy Windows settings                   | General administration             |
+| **Settings**                      | `ms-settings:`              | Modern Windows settings                   | Everyday configuration             |
+| **File Explorer**                 | `explorer`                  | Browse files                              | File management                    |
+| **System Properties**             | `sysdm.cpl`                 | Computer name, remote, protection         | Rename PC, System Restore          |
+| **Programs & Features**           | `appwiz.cpl`                | Uninstall applications                    | Remove faulty software             |
+| **Windows Update**                | `ms-settings:windowsupdate` | Manage updates                            | Update troubleshooting             |
+| **Local Users & Groups** *(Pro)*  | `lusrmgr.msc`               | Manage local accounts                     | User account administration        |
+| **Local Security Policy** *(Pro)* | `secpol.msc`                | Security settings                         | Security troubleshooting           |
+
+## Essential CMD Commands
+
+| Command                                      | Purpose               |
+| -------------------------------------------- | --------------------- |
+| `ipconfig /all`                              | Network configuration |
+| `ping`                                       | Test connectivity     |
+| `tracert`                                    | Trace network path    |
+| `nslookup`                                   | DNS lookup            |
+| `netstat -ano`                               | Active connections    |
+| `systeminfo`                                 | System information    |
+| `hostname`                                   | Computer name         |
+| `whoami`                                     | Current user          |
+| `driverquery`                                | Installed drivers     |
+| `tasklist`                                   | Running processes     |
+| `taskkill`                                   | End a process         |
+| `sfc /scannow`                               | Repair system files   |
+| `DISM /Online /Cleanup-Image /RestoreHealth` | Repair Windows image  |
+| `chkdsk`                                     | Check disk errors     |
+| `manage-bde -status`                         | BitLocker status      |
+
+## Top 10 Tools to Master First
+
+1. Task Manager
+2. Device Manager
+3. Event Viewer
+4. Command Prompt
+5. Services
+6. System Configuration (`msconfig`)
+7. Reliability Monitor
+8. Resource Monitor
+9. System Information (`msinfo32`)
+10. Disk Management
+
+These are the tools you'll use most often in help desk, desktop support, and the CCST IT Support certification. Mastering them will cover the majority of day-to-day troubleshooting scenarios.
